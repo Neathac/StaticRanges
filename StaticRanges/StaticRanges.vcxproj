@@ -140,6 +140,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="StaticRanges.cpp" />
+    <ClCompile Include="test1.cpp" />
+    <ClCompile Include="test2.cpp" />
+    <ClCompile Include="test_concepts.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="static_for_test_struct.hpp" />
+    <ClInclude Include="static_ranges.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
